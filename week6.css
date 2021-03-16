@@ -2,66 +2,65 @@
 /* This website template was created by: Tez (Terra) Watley, 02/08/2021 */
 
 
-/* Global styles
-------------------------------------*/
-html {
-    box-sizing: border-box;
-  }
+/* Global styles------------------------------------*/
+  html {
+      box-sizing: border-box;
+    }
 
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    color: #343434;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    line-height: 1.5;
-    text-align: justify;
-    text-justify: inter-word;
-  }
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    body {
+      color: #343434;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      text-align: justify;
+      text-justify: inter-word;
+    }
 
-  a {
-    color:black; 
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
+    a {
+      color:black; 
+    }
+    
+    a:hover {
+      text-decoration: none;
+    }
 
-  h1 {
-    font-size: 100px;
-    line-height: 1;
-  }
+    h1 {
+      font-size: 100px;
+      line-height: 1;
+    }
 
-  h2 {
-    font-size: 45px;
-  }
-  
-  h1, h2 {
-    font-family: 'Caveat', cursive;
-    font-weight: 400;
-    margin: 0;
-  }
-  
-  h3 {
-    margin-bottom: 0;
-  }
-  
-  .item-details h3 + p {
-    font-style: italic;
-  }
-  
-  .item-details h3 ~ p {
-    margin: 0;
-  }
+    h2 {
+      font-size: 45px;
+    }
+    
+    h1, h2 {
+      font-family: 'Caveat Brush', cursive;
+      font-weight: 400;
+      margin: 0;
+    }
+    
+    h3 {
+      margin-bottom: 0;
+    }
+    
+    .item-details h3 + p {
+      font-style: italic;
+    }
+    
+    .item-details h3 ~ p {
+      margin: 0;
+    }
 
 
   /* Profile ------------------------------------*/
   header {
-    background: #A1C6D7;
+    background: white;
     color: black;
   }  
 
@@ -71,40 +70,37 @@ header p {
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
-  line-height: 1.5;
 }
-
-
 
  /* Navigation ------------------------------------*/
  .navbar {
     overflow: hidden;
     background-color: #FA8334;
-    font-family: 'Caveat', cursive;
+    font-family: 'Caveat Brush', cursive;
     margin: auto;
-    padding: 10px; 
+    padding: 0px; 
   }
 
   .navbar a {
     float: left;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
   }
 
   .dropdown {
     float: left;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none; 
   }
 
   .dropdown .dropbtn {
-    font-size: 35px;
+    font-size: 25px;
     border: none;
     outline: none;
     color: white;
@@ -115,10 +111,6 @@ header p {
     overflow: hidden;
     text-decoration: none; 
 }
-
-.navbar a:hover, .dropbtn {
-    background-color: #483A58;
-  }
 
   .dropdown-content {
     display: none;
@@ -146,8 +138,9 @@ header p {
   /* Work Experience ------------------------------------*/
   .work-experience {
     background: #A1C6D7;
+    display: block;
   }
-    
+
   /* Education ------------------------------------*/
   .education {
     background-size: cover;
@@ -199,6 +192,7 @@ header p {
       width: 85%;
       margin: 0 auto;
       padding: 60px 0;
+      background-color: ;
     }
   }
   
